@@ -1824,9 +1824,7 @@
 			},
 			{
 				"identifier": 0,
-				"functions": [
-					"MSP"
-				],
+				"functions": [],
 				"msp_baudrate": "115200",
 				"gps_baudrate": "57600",
 				"telemetry_baudrate": "AUTO",
@@ -1844,7 +1842,9 @@
 			},
 			{
 				"identifier": 2,
-				"functions": [],
+				"functions": [
+					"MSP"
+				],
 				"msp_baudrate": "115200",
 				"gps_baudrate": "57600",
 				"telemetry_baudrate": "AUTO",
@@ -2273,7 +2273,7 @@
 		"pitch": 0,
 		"yaw": 0
 	},
-	"CRAFT_NAME": "Cygnet",
+	"CRAFT_NAME": "Taycan",
 	"DISPLAY_NAME": "JOE PILOT",
 	"MIXER_CONFIG": {
 		"mixer": 3,
@@ -2580,7 +2580,7 @@
 		"rxSpiProtocol": 0,
 		"rxSpiId": 0,
 		"rxSpiRfChannelCount": 0,
-		"fpvCamAngleDegrees": 30,
+		"fpvCamAngleDegrees": 25,
 		"rcSmoothingType": 1,
 		"rcSmoothingInputCutoff": 0,
 		"rcSmoothingDerivativeCutoff": 0,

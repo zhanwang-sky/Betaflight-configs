@@ -12,7 +12,7 @@ batch start
 board_name BETAFLIGHTF4
 manufacturer_id FPVM
 
-# name: Cygnet
+# name: Taycan
 
 # resources
 resource BEEPER 1 B04
@@ -309,9 +309,9 @@ map AETR1234
 
 # serial
 serial 20 1 115200 57600 0 115200
-serial 0 1 115200 57600 0 115200
+serial 0 0 115200 57600 0 115200
 serial 1 64 115200 57600 0 115200
-serial 2 0 115200 57600 0 115200
+serial 2 1 115200 57600 0 115200
 serial 5 0 115200 57600 0 115200
 
 # led
@@ -544,7 +544,7 @@ set acc_hardware = AUTO
 set acc_lpf_hz = 10
 set acc_trim_pitch = 0
 set acc_trim_roll = 0
-set acc_calibration = -85,45,0
+set acc_calibration = -30,80,0
 set align_mag = DEFAULT
 set mag_align_roll = 0
 set mag_align_pitch = 0
@@ -583,7 +583,7 @@ set rc_smoothing_debug_axis = ROLL
 set rc_smoothing_input_type = BIQUAD
 set rc_smoothing_derivative_type = BIQUAD
 set rc_smoothing_auto_smoothness = 10
-set fpv_mix_degrees = 30
+set fpv_mix_degrees = 25
 set max_aux_channels = 14
 set serialrx_provider = SBUS
 set serialrx_inverted = OFF
@@ -653,11 +653,11 @@ set vbat_lpf_period = 30
 set ibat_lpf_period = 10
 set vbat_duration_for_warning = 0
 set vbat_duration_for_critical = 0
-set vbat_scale = 110
+set vbat_scale = 106
 set vbat_divider = 10
 set vbat_multiplier = 1
 set ibata_scale = 100
-set ibata_offset = 40
+set ibata_offset = 350
 set ibatv_scale = 0
 set ibatv_offset = 0
 set beeper_inversion = ON
@@ -982,7 +982,7 @@ set stats = OFF
 set stats_total_flights = 0
 set stats_total_time_s = 0
 set stats_total_dist_m = 0
-set name = Cygnet
+set name = Taycan
 set display_name = -
 set position_alt_source = DEFAULT
 
