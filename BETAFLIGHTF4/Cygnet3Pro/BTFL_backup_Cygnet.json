@@ -39,20 +39,20 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 1.2,
-				"RC_EXPO": 0.5,
+				"RC_RATE": 1,
+				"RC_EXPO": 0.45,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.64,
-				"pitch_rate": 0.64,
-				"yaw_rate": 0.64,
+				"roll_rate": 0.7,
+				"pitch_rate": 0.7,
+				"yaw_rate": 0.61,
 				"dynamic_THR_PID": 0.65,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1250,
 				"RC_YAW_EXPO": 0,
-				"rcYawRate": 1.2,
-				"rcPitchRate": 1.2,
-				"RC_PITCH_EXPO": 0.5,
+				"rcYawRate": 1.3,
+				"rcPitchRate": 1,
+				"RC_PITCH_EXPO": 0.45,
 				"roll_rate_limit": 1998,
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
@@ -595,8 +595,8 @@
 				}
 			],
 			"RCdeadband": {
-				"deadband": 0,
-				"yaw_deadband": 0,
+				"deadband": 3,
+				"yaw_deadband": 5,
 				"alt_hold_deadband": 40,
 				"deadband3d_throttle": 50
 			}
@@ -638,20 +638,20 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 1.2,
-				"RC_EXPO": 0.5,
+				"RC_RATE": 1,
+				"RC_EXPO": 0.45,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.64,
-				"pitch_rate": 0.64,
-				"yaw_rate": 0.64,
+				"roll_rate": 0.7,
+				"pitch_rate": 0.7,
+				"yaw_rate": 0.61,
 				"dynamic_THR_PID": 0.65,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1250,
 				"RC_YAW_EXPO": 0,
-				"rcYawRate": 1.2,
-				"rcPitchRate": 1.2,
-				"RC_PITCH_EXPO": 0.5,
+				"rcYawRate": 1.3,
+				"rcPitchRate": 1,
+				"RC_PITCH_EXPO": 0.45,
 				"roll_rate_limit": 1998,
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
@@ -1194,8 +1194,8 @@
 				}
 			],
 			"RCdeadband": {
-				"deadband": 0,
-				"yaw_deadband": 0,
+				"deadband": 3,
+				"yaw_deadband": 5,
 				"alt_hold_deadband": 40,
 				"deadband3d_throttle": 50
 			}
@@ -1237,20 +1237,20 @@
 				[]
 			],
 			"RC": {
-				"RC_RATE": 1.2,
-				"RC_EXPO": 0.5,
+				"RC_RATE": 1,
+				"RC_EXPO": 0.45,
 				"roll_pitch_rate": 0,
-				"roll_rate": 0.64,
-				"pitch_rate": 0.64,
-				"yaw_rate": 0.64,
+				"roll_rate": 0.7,
+				"pitch_rate": 0.7,
+				"yaw_rate": 0.61,
 				"dynamic_THR_PID": 0.65,
 				"throttle_MID": 0.5,
 				"throttle_EXPO": 0,
 				"dynamic_THR_breakpoint": 1250,
 				"RC_YAW_EXPO": 0,
-				"rcYawRate": 1.2,
-				"rcPitchRate": 1.2,
-				"RC_PITCH_EXPO": 0.5,
+				"rcYawRate": 1.3,
+				"rcPitchRate": 1,
+				"RC_PITCH_EXPO": 0.45,
 				"roll_rate_limit": 1998,
 				"pitch_rate_limit": 1998,
 				"yaw_rate_limit": 1998,
@@ -1793,8 +1793,8 @@
 				}
 			],
 			"RCdeadband": {
-				"deadband": 0,
-				"yaw_deadband": 0,
+				"deadband": 3,
+				"yaw_deadband": 5,
 				"alt_hold_deadband": 40,
 				"deadband3d_throttle": 50
 			}
@@ -2298,7 +2298,7 @@
 		"gyroCalibDuration": 125,
 		"gyroOffsetYaw": 0,
 		"gyroCheckOverflow": 2,
-		"debugMode": 20,
+		"debugMode": 0,
 		"debugModeCount": 60
 	},
 	"LED_MODE_COLORS": [
@@ -2567,9 +2567,9 @@
 	},
 	"RX_CONFIG": {
 		"serialrx_provider": 2,
-		"stick_max": 1900,
+		"stick_max": 1950,
 		"stick_center": 1500,
-		"stick_min": 1010,
+		"stick_min": 1050,
 		"spektrum_sat_bind": 0,
 		"rx_min_usec": 885,
 		"rx_max_usec": 2115,
