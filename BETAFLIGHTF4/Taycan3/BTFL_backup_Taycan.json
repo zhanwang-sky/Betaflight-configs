@@ -135,8 +135,8 @@
 					"id": 0,
 					"auxChannelIndex": 2,
 					"range": {
-						"start": 1800,
-						"end": 2100
+						"start": 1975,
+						"end": 2025
 					}
 				},
 				{
@@ -144,31 +144,31 @@
 					"auxChannelIndex": 1,
 					"range": {
 						"start": 900,
-						"end": 1800
+						"end": 1950
 					}
 				},
 				{
 					"id": 13,
 					"auxChannelIndex": 3,
 					"range": {
-						"start": 900,
-						"end": 1200
-					}
-				},
-				{
-					"id": 13,
-					"auxChannelIndex": 2,
-					"range": {
-						"start": 900,
-						"end": 1200
+						"start": 975,
+						"end": 1025
 					}
 				},
 				{
 					"id": 15,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1200,
+						"start": 1050,
 						"end": 2100
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
 					}
 				},
 				{
@@ -734,8 +734,8 @@
 					"id": 0,
 					"auxChannelIndex": 2,
 					"range": {
-						"start": 1800,
-						"end": 2100
+						"start": 1975,
+						"end": 2025
 					}
 				},
 				{
@@ -743,31 +743,31 @@
 					"auxChannelIndex": 1,
 					"range": {
 						"start": 900,
-						"end": 1800
+						"end": 1950
 					}
 				},
 				{
 					"id": 13,
 					"auxChannelIndex": 3,
 					"range": {
-						"start": 900,
-						"end": 1200
-					}
-				},
-				{
-					"id": 13,
-					"auxChannelIndex": 2,
-					"range": {
-						"start": 900,
-						"end": 1200
+						"start": 975,
+						"end": 1025
 					}
 				},
 				{
 					"id": 15,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1200,
+						"start": 1050,
 						"end": 2100
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
 					}
 				},
 				{
@@ -1333,8 +1333,8 @@
 					"id": 0,
 					"auxChannelIndex": 2,
 					"range": {
-						"start": 1800,
-						"end": 2100
+						"start": 1975,
+						"end": 2025
 					}
 				},
 				{
@@ -1342,31 +1342,31 @@
 					"auxChannelIndex": 1,
 					"range": {
 						"start": 900,
-						"end": 1800
+						"end": 1950
 					}
 				},
 				{
 					"id": 13,
 					"auxChannelIndex": 3,
 					"range": {
-						"start": 900,
-						"end": 1200
-					}
-				},
-				{
-					"id": 13,
-					"auxChannelIndex": 2,
-					"range": {
-						"start": 900,
-						"end": 1200
+						"start": 975,
+						"end": 1025
 					}
 				},
 				{
 					"id": 15,
 					"auxChannelIndex": 0,
 					"range": {
-						"start": 1200,
+						"start": 1050,
 						"end": 2100
+					}
+				},
+				{
+					"id": 0,
+					"auxChannelIndex": 0,
+					"range": {
+						"start": 900,
+						"end": 900
 					}
 				},
 				{
@@ -1877,9 +1877,9 @@
 		},
 		{
 			"y": 0,
-			"x": 0,
+			"x": 1,
 			"functions": [
-				"c"
+				"a"
 			],
 			"color": 0,
 			"directions": [],
@@ -2981,12 +2981,12 @@
 			"linkedTo": 0
 		},
 		{
-			"id": 13,
-			"modeLogic": 1,
+			"id": 15,
+			"modeLogic": 0,
 			"linkedTo": 0
 		},
 		{
-			"id": 15,
+			"id": 0,
 			"modeLogic": 0,
 			"linkedTo": 0
 		},
