@@ -315,8 +315,8 @@ serial 2 0 115200 57600 0 115200
 serial 5 0 115200 57600 0 115200
 
 # led
-led 0 0,0::A:0
-led 1 1,0::A:0
+led 0 7,7::A:0
+led 1 8,7::A:4
 led 2 0,0::C:0
 led 3 0,0::C:0
 led 4 0,0::C:0
@@ -1045,7 +1045,7 @@ set f_yaw = 90
 set angle_level_strength = 50
 set horizon_level_strength = 50
 set horizon_transition = 75
-set level_limit = 45
+set level_limit = 55
 set horizon_tilt_effect = 75
 set horizon_tilt_expert_mode = OFF
 set abs_control_gain = 0
@@ -1085,13 +1085,13 @@ set thr_expo = 0
 set rates_type = BETAFLIGHT
 set roll_rc_rate = 100
 set pitch_rc_rate = 100
-set yaw_rc_rate = 130
-set roll_expo = 45
-set pitch_expo = 45
+set yaw_rc_rate = 135
+set roll_expo = 0
+set pitch_expo = 0
 set yaw_expo = 0
-set roll_srate = 70
-set pitch_srate = 70
-set yaw_srate = 61
+set roll_srate = 75
+set pitch_srate = 75
+set yaw_srate = 70
 set tpa_rate = 65
 set tpa_breakpoint = 1250
 set tpa_mode = D
